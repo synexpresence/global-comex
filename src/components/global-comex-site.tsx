@@ -33,6 +33,7 @@ export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = useRouterState({ select: (state) => state.location.pathname });
+  const isHome = pathname === "/";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 28);
@@ -44,7 +45,7 @@ export function SiteHeader() {
   useEffect(() => setOpen(false), [pathname]);
 
   return (
-    <header className={`site-header ${scrolled || open ? "site-header-solid" : ""}`}>
+    <header className={`site-header ${isHome ? "site-header-home" : ""} ${scrolled || open ? "site-header-solid" : ""}`}>
       <div className="site-container flex h-[76px] items-center justify-between gap-5 lg:h-[88px]">
         <Link to="/" aria-label="Global Comex — página inicial" className="shrink-0">
           <img src={logoAsset.url} alt="Global Comex Assessoria Aduaneira" className="brand-logo" />
@@ -66,14 +67,14 @@ export function SiteHeader() {
           <div className="hidden items-center gap-1 text-xs font-bold text-header sm:flex" aria-label="Idioma">
             <span className="text-current">PT</span><span className="opacity-50">/</span><span className="opacity-60">EN</span>
           </div>
-          <Button asChild variant="header" size="sm" className="hidden lg:inline-flex">
+          <Button asChild variant="header" size="sm" className="header-cta hidden lg:inline-flex">
             <Link to="/contato">SOLICITE UMA COTAÇÃO</Link>
           </Button>
           <Button
             type="button"
             variant="headerGhost"
             size="icon"
-            className="min-h-11 min-w-11 lg:hidden"
+            className="header-menu-toggle min-h-11 min-w-11 lg:hidden"
             aria-label={open ? "Fechar menu" : "Abrir menu"}
             aria-expanded={open}
             onClick={() => setOpen((value) => !value)}
