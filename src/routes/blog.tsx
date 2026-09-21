@@ -27,8 +27,8 @@ const newsQueryOptions = queryOptions({
 
 export const Route = createFileRoute("/blog")({
   validateSearch: (search: Record<string, unknown>) => ({
-    categoria: categories.includes(search.categoria as CategoryFilter)
-      ? search.categoria as CategoryFilter
+    categoria: categories.includes(search["categoria"] as CategoryFilter)
+      ? search["categoria"] as CategoryFilter
       : "Todos" as CategoryFilter,
   }),
   loader: ({ context }) => context.queryClient.ensureQueryData(newsQueryOptions),
