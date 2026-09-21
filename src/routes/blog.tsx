@@ -163,7 +163,7 @@ function formatDate(value: string) {
 }
 
 function PreviousContentPage() {
-  return <><PageHero eyebrow="Conteúdos" title="Central de Atualizações do Comércio Exterior." description="Informação para apoiar decisões no comércio exterior." /><PreviousContent /></>;
+  return <><PageHero eyebrow="Atualizações" title="Central de Atualizações do Comércio Exterior." description="Informação para apoiar decisões no comércio exterior." /><PreviousContent /></>;
 }
 
 function PreviousContent() {
