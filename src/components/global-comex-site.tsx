@@ -25,7 +25,7 @@ const navigation = [
   { label: "Home", to: "/" },
   { label: "Quem Somos", to: "/quem-somos" },
   { label: "Serviços", to: "/servicos" },
-  { label: "Blog", to: "/blog" },
+  { label: "Atualizações", to: "/blog" },
   { label: "Contato", to: "/contato" },
 ] as const;
 
