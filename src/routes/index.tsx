@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowDown, ArrowRight, CircleCheck, Compass, Gauge, Handshake, LockKeyhole, Plane, Ship, Sparkles, Star } from "lucide-react";
+import { ArrowDown, ArrowRight, CircleCheck, Compass, Gauge, Handshake, LockKeyhole, Ship, Sparkles, Star, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ArrowLink, GlobalBand, RouteGraphic, SectionTitle } from "@/components/global-comex-site";
 import heroImage from "@/assets/global-comex-hero.jpg";
@@ -11,9 +11,9 @@ import multimodalImage from "@/assets/global-comex-multimodal.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
     { title: "Global Comex | Assessoria Aduaneira e Logística Internacional" },
-    { name: "description", content: "Mais de 30 anos de experiência em assessoria aduaneira, agenciamento de cargas, importação e exportação." },
-    { property: "og:title", content: "Global Comex | Comércio exterior com experiência" },
-    { property: "og:description", content: "Assessoria aduaneira e logística internacional com segurança, agilidade e atendimento personalizado." },
+    { name: "description", content: "Assessoria aduaneira, agenciamento de cargas e transporte rodoviário para operações de comércio exterior." },
+    { property: "og:title", content: "Global Comex | Assessoria Aduaneira" },
+    { property: "og:description", content: "Mais de 30 anos de experiência em assessoria aduaneira e comércio exterior, com agilidade e confiança." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
   ]}),
@@ -29,9 +29,9 @@ function Index() {
     { label: "Nosso Foco", text: "Encontrar as melhores rotas e opções de transporte para reduzir custos e agilizar processos." },
   ];
   const services = [
-    { n: "01", title: "Agenciamento de Cargas", image: heroImage, icon: Ship },
-    { n: "02", title: "Assessoria Aduaneira", image: shipImage, icon: Compass },
-    { n: "03", title: "Importação e Exportação", image: airImage, icon: Plane },
+    { n: "01", title: "Assessoria Aduaneira", image: heroImage, icon: Compass },
+    { n: "02", title: "Agenciamento de Cargas", image: shipImage, icon: Ship },
+    { n: "03", title: "Transporte Rodoviário", image: multimodalImage, icon: Truck },
   ];
   const reviews = [
     ["Advancis Max", "Ficamos extremamente satisfeitos com a agilidade no processo, o profissionalismo em nos atender sempre prontamente e também em nos instruir durante o processo. Somos gratos e indicamos!"],
@@ -50,9 +50,9 @@ function Index() {
         <div className="hero-overlay" /><RouteGraphic />
         <div className="site-container relative z-10 flex min-h-[92svh] items-end pb-20 pt-32 md:pb-24">
           <div className="max-w-4xl">
-            <div className="section-kicker section-kicker-light hero-sequence">Logística sem fronteiras</div>
-            <h1 className="hero-sequence mt-5 font-display text-5xl font-semibold leading-[.94] text-on-dark sm:text-7xl lg:text-[6.5rem]">Agenciamento<br /><span>de Cargas.</span></h1>
-            <p className="hero-sequence mt-6 max-w-xl text-base leading-7 text-on-dark-muted md:text-lg">Experiência e precisão conectando sua empresa ao comércio internacional.</p>
+            <div className="section-kicker section-kicker-light hero-sequence">Comércio exterior</div>
+            <h1 className="hero-sequence mt-5 font-display text-5xl font-semibold leading-[.94] text-on-dark sm:text-7xl lg:text-[6.5rem]">Assessoria<br /><span>Aduaneira.</span></h1>
+            <p className="hero-sequence mt-6 max-w-xl text-base leading-7 text-on-dark-muted md:text-lg">Conectando seus negócios ao mundo, com agilidade e confiança.</p>
             <Button asChild variant="action" size="xl" className="hero-sequence mt-8">
               <a href="#servicos-destaque">SAIBA MAIS <ArrowDown /></a>
             </Button>
@@ -65,7 +65,7 @@ function Index() {
       <section id="servicos-destaque" className="section-space bg-background">
         <div className="site-container">
           <div className="grid items-end gap-8 md:grid-cols-[1fr_auto]">
-            <SectionTitle eyebrow="Soluções integradas" title="Movemos negócios por terra, mar e ar." description="Atuação em todas as etapas para tornar o seu processo mais seguro, ágil e eficiente." />
+            <SectionTitle eyebrow="Soluções integradas" title="Assessoria para o seu comércio exterior." description="Conhecimento e acompanhamento para tornar o seu processo mais seguro, ágil e eficiente." />
             <ArrowLink to="/servicos">Conheça todos os serviços</ArrowLink>
           </div>
           <div className="service-showcase mt-12">

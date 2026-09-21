@@ -109,7 +109,6 @@ export function SiteFooter() {
         <FooterColumn title="Navegação" links={navigation} />
         <FooterColumn title="Serviços" links={[
           { label: "Assessoria Aduaneira", to: "/servicos" },
-          { label: "Importação e Exportação", to: "/servicos" },
           { label: "Agenciamento de Cargas", to: "/servicos" },
           { label: "Transporte Rodoviário", to: "/servicos" },
         ]} />
