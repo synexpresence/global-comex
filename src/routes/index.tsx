@@ -90,7 +90,7 @@ function Index() {
             <div className="mt-9 flex border-b border-border" role="tablist" aria-label="Valores da Global Comex">
               {values.map((item, index) => <button key={item.label} role="tab" aria-selected={activeValue === index} className={`value-tab ${activeValue === index ? "value-tab-active" : ""}`} onClick={() => setActiveValue(index)}>{item.label}</button>)}
             </div>
-            <div className="value-panel" role="tabpanel"><Sparkles /><p>{values[activeValue].text}</p></div>
+            <div className="value-panel" role="tabpanel"><Sparkles /><p>{values[activeValue]?.text ?? values[0].text}</p></div>
             <ArrowLink to="/quem-somos">Conheça nossa história</ArrowLink>
           </div>
         </div>
