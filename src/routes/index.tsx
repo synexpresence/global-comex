@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowDown, ArrowRight, CircleCheck, Compass, Gauge, Handshake, LockKeyhole, Ship, Sparkles, Star, Truck } from "lucide-react";
+import { ArrowDown, ArrowRight, CircleCheck, Compass, Gauge, Handshake, LockKeyhole, MessageCircle, Ship, Sparkles, Star, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ArrowLink, GlobalBand, RouteGraphic, SectionTitle } from "@/components/global-comex-site";
 import heroImage from "@/assets/global-comex-hero.jpg";
@@ -129,7 +129,7 @@ function Index() {
         </div>
       </section>
 
-      <section className="contact-cta"><RouteGraphic /><div className="site-container relative z-10 grid gap-8 py-20 md:grid-cols-[1fr_auto] md:items-end"><SectionTitle eyebrow="Próximo destino" title="Sua operação pode ir mais longe." description="Converse com a nossa equipe sobre as necessidades do seu processo." light /><Button asChild variant="action" size="xl"><a href="/contato">SOLICITE UMA COTAÇÃO <ArrowRight /></a></Button></div></section>
+      <section className="contact-cta"><RouteGraphic /><div className="site-container relative z-10 grid gap-8 py-20 md:grid-cols-[1fr_auto] md:items-end"><SectionTitle eyebrow="Próximo destino" title="Sua operação pode ir mais longe." description="Converse com a nossa equipe sobre as necessidades do seu processo." light /><div className="flex flex-col items-start gap-4 md:items-end"><Button asChild variant="action" size="xl"><a href="/contato">SOLICITE UMA COTAÇÃO <ArrowRight /></a></Button><a href="https://wa.me/5511971027563" target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 text-sm font-bold text-on-dark transition-opacity hover:opacity-80" aria-label="Conversar pelo WhatsApp no número (11) 97102-7563"><MessageCircle className="size-5 text-brand-red" /><span><span className="block text-xs uppercase text-on-dark-muted">WhatsApp</span>(11) 97102-7563</span></a></div></div></section>
     </>
   );
 }
