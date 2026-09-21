@@ -123,7 +123,7 @@ function Index() {
           <SectionTitle eyebrow="Por que a Global Comex" title="Precisão em cada movimento." description="Experiência prática para cuidar dos detalhes, antecipar caminhos e acompanhar sua operação." light />
           <div className="benefit-line mt-14">
             {[
-              ["01", "Redução de Custos\u00a0\n\n\nIdentificamos as melhores rotas, minimizando gastos.", Gauge], ["02", "Agilidade\u00a0\n\n\nProcessos eficientes garantem liberação rápida de mercadorias.", ArrowRight], ["03", "Segurança\u00a0\n\n\nEquipe experiente garante conformidade com normas.", LockKeyhole], ["04", "Atendimento Personalizado\n\n\nSoluções sob medida para cada\ncliente.", Handshake],
+              ["01", "Redução de Custos:\u00a0 \u00a0 Identificamos as melhores rotas, minimizando gastos.", Gauge], ["02", "Agilidade:\u00a0 \u00a0 Processos eficientes garantem liberação rápida de mercadorias.", ArrowRight], ["03", "Segurança:\u00a0 \u00a0 Equipe experiente garante conformidade com normas.", LockKeyhole], ["04", "Atendimento Personalizado:\u00a0 \u00a0Soluções sob medida para cada cliente.", Handshake],
             ].map(([n, title, Icon]) => { const BenefitIcon = Icon as typeof Gauge; return <article className="benefit-item" key={title as string}><div><span>{n as string}</span><BenefitIcon /></div><h3>{title as string}</h3><CircleCheck /></article>; })}
           </div>
         </div>
