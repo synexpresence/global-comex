@@ -50,7 +50,7 @@ function Index() {
         <div className="hero-overlay" /><RouteGraphic />
         <div className="site-container relative z-10 flex min-h-[92svh] items-end pb-20 pt-32 md:pb-24">
           <div className="max-w-4xl">
-            <div className="section-kicker section-kicker-light hero-sequence">Logística sem fronteiras</div>
+            <div className="section-kicker section-kicker-light hero-sequence">Comércio exterior</div>
             <h1 className="hero-sequence mt-5 font-display text-5xl font-semibold leading-[.94] text-on-dark sm:text-7xl lg:text-[6.5rem]">Assessoria<br /><span>Aduaneira.</span></h1>
             <p className="hero-sequence mt-6 max-w-xl text-base leading-7 text-on-dark-muted md:text-lg">Conectando seus negócios ao mundo, com agilidade e confiança.</p>
             <Button asChild variant="action" size="xl" className="hero-sequence mt-8">
