@@ -121,7 +121,7 @@ function Index() {
 
       <section className="section-space bg-surface-soft">
         <div className="site-container">
-          <div className="grid items-end gap-8 md:grid-cols-[1fr_auto]"><SectionTitle eyebrow="Conteúdo" title="Informação que move decisões." /><ArrowLink to="/blog">Acessar o blog</ArrowLink></div>
+          <div className="grid items-end gap-8 md:grid-cols-[1fr_auto]"><SectionTitle eyebrow="Conteúdo" title="Informação que move decisões." /><ArrowLink to="/blog">Central de atualizações</ArrowLink></div>
           <div className="blog-preview mt-12">
             <article><img src={shipImage} alt="Navio de carga no porto" width={1024} height={1280} loading="lazy" /><div><span>12 FEV 2025</span><h3>Como funciona o transporte de carga consolidada?</h3><ArrowRight /></div></article>
             <article><img src={airImage} alt="Operação de transporte aéreo de cargas" width={1024} height={1280} loading="lazy" /><div><span>12 FEV 2025</span><h3>Logística do transporte aéreo</h3><ArrowRight /></div></article>

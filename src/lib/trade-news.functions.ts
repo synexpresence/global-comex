@@ -1,5 +1,6 @@
 import { XMLParser } from "fast-xml-parser";
 import { createServerFn } from "@tanstack/react-start";
+import { setResponseHeader } from "@tanstack/react-start/server";
 
 export type NewsCategory =
   | "Comércio Exterior"
@@ -163,6 +164,7 @@ function normalizeTitle(title: string): string {
 }
 
 export const getTradeNews = createServerFn({ method: "GET" }).handler(async () => {
+  setResponseHeader("Cache-Control", "public, max-age=900, stale-while-revalidate=21600");
   const results = await Promise.allSettled(FEEDS.map(fetchFeed));
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
