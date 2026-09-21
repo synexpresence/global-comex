@@ -263,6 +263,7 @@
   .updates-grid { grid-template-columns:1fr 1fr; }.update-card-wide { grid-column:span 2; }
 }
 @media (max-width: 640px) {
+  .cover-image { object-fit:contain; object-position:center center; }
   .brand-logo { width:62px;height:62px; }.site-container { width:min(100% - 1.25rem,1280px); }
   .hero-coordinates { display:none; }.route-graphic { inset:20% -30% auto 5%; }.hero-image { object-position:62% center; }.hero-overlay { background:linear-gradient(90deg,color-mix(in oklab,var(--brand-deep) 94%,transparent),color-mix(in oklab,var(--brand-deep) 42%,transparent)),linear-gradient(0deg,color-mix(in oklab,var(--brand-deep) 85%,transparent),transparent 70%); }
   .service-showcase,.benefit-line,.process-grid,.services-grid,.blog-preview,.editorial-grid,.form-grid { grid-template-columns:1fr; }
