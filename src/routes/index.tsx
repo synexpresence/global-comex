@@ -7,6 +7,7 @@ import heroImage from "@/assets/global-comex-hero.jpg";
 import shipImage from "@/assets/global-comex-ship.jpg";
 import airImage from "@/assets/global-comex-air-cargo.jpg";
 import multimodalImage from "@/assets/global-comex-multimodal.jpg";
+import coverImage from "@/assets/global-comex-cover-home.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
