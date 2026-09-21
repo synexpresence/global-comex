@@ -10,7 +10,7 @@ import {
   Phone,
   X,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/button";
 import logoAsset from "@/assets/global-comex-logo.png.asset.json";
 
@@ -178,7 +178,7 @@ export function SectionTitle({ eyebrow, title, description, light = false }: { e
   );
 }
 
-export function ArrowLink({ to, children, light = false }: { to: "/" | "/quem-somos" | "/servicos" | "/blog" | "/contato"; children: React.ReactNode; light?: boolean }) {
+export function ArrowLink({ to, children, light = false }: { to: "/" | "/quem-somos" | "/servicos" | "/blog" | "/contato"; children: ReactNode; light?: boolean }) {
   return <Link to={to} className={`arrow-link ${light ? "arrow-link-light" : ""}`}>{children}<ArrowRight /></Link>;
 }
 
