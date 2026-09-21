@@ -7,3 +7,4 @@
 - [x] Validar feeds, links, desktop e mobile
 
 - [x] Substituir e validar a logo oficial no cabeçalho, rodapé e favicon
+- [x] Adicionar e validar o WhatsApp no contato final da Home
