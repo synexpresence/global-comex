@@ -117,6 +117,7 @@ export function SiteFooter() {
           <p className="footer-title">Contato</p>
           <div className="mt-5 space-y-4 text-sm text-on-dark-muted">
             <a className="footer-contact" href="tel:+551123642167"><Phone />{contact.phone}</a>
+            <a className="footer-contact" href="https://wa.me/5511971027563" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp no número +55 11 97102-7563"><MessageCircle />{contact.whatsapp}</a>
             <a className="footer-contact" href="mailto:francisco@global-comex.com"><Mail />{contact.email}</a>
             <p className="footer-contact"><MapPin />{contact.address}</p>
           </div>
