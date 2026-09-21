@@ -1,5 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
-import { createServerFn, setResponseHeader } from "@tanstack/react-start";
+import { createServerFn } from "@tanstack/react-start";
 
 export type NewsCategory =
   | "Comércio Exterior"
@@ -132,13 +132,14 @@ async function fetchFeed(feed: FeedDefinition): Promise<TradeNewsItem[]> {
     ];
 
     return rawItems.flatMap((item) => {
-      const title = plainText(item.title, 180);
-      const summary = plainText(item.description ?? item.summary ?? item.content, 240);
-      const linkValue = typeof item.link === "object" && item.link !== null
-        ? (item.link as Record<string, unknown>)["@_href"]
-        : item.link;
+      const title = plainText(item["title"], 180);
+      const summary = plainText(item["description"] ?? item["summary"] ?? item["content"], 240);
+      const link = item["link"];
+      const linkValue = typeof link === "object" && link !== null
+        ? (link as Record<string, unknown>)["@_href"]
+        : link;
       const url = safeOfficialUrl(linkValue);
-      const rawDate = item["dc:date"] ?? item.pubDate ?? item.updated ?? item.published;
+      const rawDate = item["dc:date"] ?? item["pubDate"] ?? item["updated"] ?? item["published"];
       const date = typeof rawDate === "string" ? new Date(rawDate) : undefined;
       if (!title || !summary || !url || !date || Number.isNaN(date.getTime())) return [];
 
@@ -162,7 +163,6 @@ function normalizeTitle(title: string): string {
 }
 
 export const getTradeNews = createServerFn({ method: "GET" }).handler(async () => {
-  setResponseHeader("Cache-Control", "public, max-age=900, stale-while-revalidate=21600");
   const results = await Promise.allSettled(FEEDS.map(fetchFeed));
   const seenUrls = new Set<string>();
   const seenTitles = new Set<string>();
