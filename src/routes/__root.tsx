@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Global Comex | Assessoria Aduaneira" },
-      { name: "description", content: "Soluções em assessoria aduaneira, importação, exportação e logística internacional." },
+      { name: "description", content: "Assessoria aduaneira, agenciamento de cargas e transporte rodoviário para o comércio exterior." },
       { name: "author", content: "Global Comex" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -103,7 +103,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
