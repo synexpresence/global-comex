@@ -5,3 +5,5 @@
 - [x] Preservar os dois conteúdos anteriores
 - [x] Atualizar rótulos visíveis e metadados relacionados
 - [x] Validar feeds, links, desktop e mobile
+
+- [x] Substituir e validar a logo oficial no cabeçalho, rodapé e favicon
