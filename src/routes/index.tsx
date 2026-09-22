@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowDown, ArrowRight, CircleCheck, Compass, Gauge, Handshake, LockKeyhole, MessageCircle, Ship, Sparkles, Star, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -140,8 +140,8 @@ function Index() {
         <div className="site-container">
           <div className="grid items-end gap-8 md:grid-cols-[1fr_auto]"><SectionTitle eyebrow="Atualizações" title="Informação que move decisões." /><ArrowLink to="/blog">Central de atualizações</ArrowLink></div>
           <div className="blog-preview mt-12">
-            <article><img src={shipImage} alt="Navio de carga no porto" width={1024} height={1280} loading="lazy" /><div><span>12 FEV 2025</span><h3>Como funciona o transporte de carga consolidada?</h3><ArrowRight /></div></article>
-            <article><img src={airImage} alt="Operação de transporte aéreo de cargas" width={1024} height={1280} loading="lazy" /><div><span>12 FEV 2025</span><h3>Logística do transporte aéreo</h3><ArrowRight /></div></article>
+            <Link to="/blog" search={{ categoria: "Todos" }} className="blog-preview-article"><img src={shipImage} alt="Navio de carga no porto" width={1024} height={1280} loading="lazy" /><div><span>12 FEV 2025</span><h3>Como funciona o transporte de carga consolidada?</h3><ArrowRight /></div></Link>
+            <Link to="/blog" search={{ categoria: "Todos" }} className="blog-preview-article"><img src={airImage} alt="Operação de transporte aéreo de cargas" width={1024} height={1280} loading="lazy" /><div><span>12 FEV 2025</span><h3>Logística do transporte aéreo</h3><ArrowRight /></div></Link>
           </div>
         </div>
       </section>
