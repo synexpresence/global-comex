@@ -10,6 +10,7 @@ import multimodalImage from "@/assets/global-comex-multimodal.jpg";
 import coverImage from "@/assets/global-comex-cover-home.jpg.asset.json";
 import truckImage from "@/assets/caminhao-containers.png.asset.json";
 import securityImage from "@/assets/seguranca-corporativa.png.asset.json";
+import serviceImage from "@/assets/atendimento-aperto-de-maos.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
@@ -128,7 +129,7 @@ function Index() {
               { n: "01", title: "Redução de Custos:\u00a0 \u00a0 Identificamos as melhores rotas, minimizando gastos.", Icon: Gauge, image: truckImage, imageAlt: "Caminhão de carga em terminal de contêineres" },
               { n: "02", title: "Agilidade:\u00a0 \u00a0 Processos eficientes garantem liberação rápida de mercadorias.", Icon: ArrowRight },
               { n: "03", title: "Segurança:\u00a0 \u00a0 Equipe experiente garante conformidade com normas.", Icon: LockKeyhole, image: securityImage, imageAlt: "Equipe em reunião corporativa de planejamento e conformidade" },
-              { n: "04", title: "Atendimento Personalizado:\u00a0 \u00a0Soluções sob medida para cada cliente.", Icon: Handshake },
+              { n: "04", title: "Atendimento Personalizado:\u00a0 \u00a0Soluções sob medida para cada cliente.", Icon: Handshake, image: serviceImage, imageAlt: "Aperto de mãos em reunião de atendimento personalizado" },
             ].map(({ n, title, Icon, image, imageAlt }) => (
               <article className={`benefit-item ${image ? "benefit-item-with-image" : ""}`} key={title}>
                 <div><span>{n}</span><Icon /></div>
