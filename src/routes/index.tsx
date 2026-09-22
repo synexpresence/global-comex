@@ -9,6 +9,7 @@ import airImage from "@/assets/global-comex-air-cargo.jpg";
 import multimodalImage from "@/assets/global-comex-multimodal.jpg";
 import coverImage from "@/assets/global-comex-cover-home.jpg.asset.json";
 import truckImage from "@/assets/caminhao-containers.png.asset.json";
+import securityImage from "@/assets/seguranca-corporativa.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
@@ -124,14 +125,14 @@ function Index() {
           <SectionTitle eyebrow="Por que a Global Comex" title="Precisão em cada movimento." description="Experiência prática para cuidar dos detalhes, antecipar caminhos e acompanhar sua operação." light />
           <div className="benefit-line mt-14">
             {[
-              { n: "01", title: "Redução de Custos:\u00a0 \u00a0 Identificamos as melhores rotas, minimizando gastos.", Icon: Gauge, image: truckImage },
+              { n: "01", title: "Redução de Custos:\u00a0 \u00a0 Identificamos as melhores rotas, minimizando gastos.", Icon: Gauge, image: truckImage, imageAlt: "Caminhão de carga em terminal de contêineres" },
               { n: "02", title: "Agilidade:\u00a0 \u00a0 Processos eficientes garantem liberação rápida de mercadorias.", Icon: ArrowRight },
-              { n: "03", title: "Segurança:\u00a0 \u00a0 Equipe experiente garante conformidade com normas.", Icon: LockKeyhole },
+              { n: "03", title: "Segurança:\u00a0 \u00a0 Equipe experiente garante conformidade com normas.", Icon: LockKeyhole, image: securityImage, imageAlt: "Equipe em reunião corporativa de planejamento e conformidade" },
               { n: "04", title: "Atendimento Personalizado:\u00a0 \u00a0Soluções sob medida para cada cliente.", Icon: Handshake },
-            ].map(({ n, title, Icon, image }) => (
+            ].map(({ n, title, Icon, image, imageAlt }) => (
               <article className={`benefit-item ${image ? "benefit-item-with-image" : ""}`} key={title}>
                 <div><span>{n}</span><Icon /></div>
-                {image && <img src={image.url} alt="Caminhão de carga em terminal de contêineres" className="benefit-item-image" width={800} height={450} loading="lazy" />}
+                {image && <img src={image.url} alt={imageAlt ?? ""} className="benefit-item-image" width={800} height={450} loading="lazy" />}
                 <h3>{title}</h3>
                 <CircleCheck />
               </article>
