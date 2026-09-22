@@ -10,6 +10,7 @@ import multimodalImage from "@/assets/global-comex-multimodal.jpg";
 import coverImage from "@/assets/global-comex-cover-home.jpg.asset.json";
 import truckImage from "@/assets/caminhao-containers.png.asset.json";
 import securityImage from "@/assets/seguranca-corporativa.png.asset.json";
+import serviceImage from "@/assets/atendimento-aperto-de-maos.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
