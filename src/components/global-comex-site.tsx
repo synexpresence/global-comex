@@ -125,7 +125,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-on-dark/10">
         <div className="site-container flex flex-col gap-2 py-5 text-xs text-on-dark-muted sm:flex-row sm:justify-between">
-          <span>© 2026&nbsp; Global Comex Assessoria Aduaneira Ltda.</span>
+          <span>© 2026&nbsp; Global Comex Assessoria Aduaneira Ltda. Todos os direitos reservados.</span>
           <span>{"\n"}</span>
         </div>
       </div>
