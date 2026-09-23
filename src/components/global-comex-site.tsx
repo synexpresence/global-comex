@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/button";
-import logoAsset from "@/assets/global-comex-logo-oficial.png.asset.json";
+import logoAsset from "@/assets/global-comex-logo-nova.png.asset.json";
 
 export const contact = {
   phone: "+55 11 2364-2167",
