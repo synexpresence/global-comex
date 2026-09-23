@@ -103,9 +103,7 @@ export function SiteFooter() {
       <div className="site-container grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.35fr_.7fr_1fr_1.25fr]">
         <div>
           <img src={logoAsset.url} alt="Global Comex" className="footer-logo" loading="lazy" />
-          <p className="mx-auto mt-5 max-w-sm text-center text-sm leading-7 text-on-dark-muted">
-            Assessoria aduaneira e logística internacional com experiência, segurança e atenção em cada etapa.
-          </p>
+          <p className="mx-auto mt-5 max-w-sm text-center text-sm leading-7 text-on-dark-muted">{"\n"}</p>
         </div>
         <FooterColumn title="Navegação" links={navigation} />
         <FooterColumn title="Serviços" links={[
