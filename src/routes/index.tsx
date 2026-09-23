@@ -42,7 +42,7 @@ function Index() {
     ["Advancis Max", "Ficamos extremamente satisfeitos com a agilidade no processo, o profissionalismo em nos atender sempre prontamente e também em nos instruir durante o processo. Somos gratos e indicamos!"],
     ["Daniela Gimenez", "Excelente.. Problema resolvido, profissional atencioso."],
     ["Alan Alves", "A Global Comex cuida do desalfandegamento dos nossos envios de vinho para o Brasil, sempre com muita atenção e qualidade. Rapidez e clareza nas respostas. Recomendo vivamente os serviços deles."],
-    ["SMG Automation", "Estamos muito satisfeitos com o atendimento que o Roberto e sua equipe vem prestando a SMG. Tivemos problemas no passado com alguns despachantes mas agora estamos bem seguros. A Global facilita e vem facilitando nossas importações."],
+    ["Shop", "Indispensável para o andamento do meu negócio. Francisco é maravilhoso. Agil, competente, disponível. Obrigada pela parceria."],
     ["Chapulim Colorado", "Uma excelente empresa de assessoria em processos para exportação. Uma equipe com larga experiência e muita disposição para executar, explicar e até de ensinar os mínimos detalhes do processo de exportação."],
     ["Adriano vargas", "A Selotech Vedações tem muito orgulho em poder contar com a parceria e o suporte da Global Comex. Graças e este suporte temos conseguido vencer vários desafios e temos crescido a taxas maiores que as do mercado. Parabéns Francisco e Roberto. Vocês fazem a diferença. Keep Going!!!"],
     ["Cristina Miyuki", "Parabéns ao Roberto, o Francisco e toda a equipe da GLOBAL COMEX pelo suporte que dá a RESOL sempre que precisamos, desde a elaboração da invoice, packing list, conferência e documentos necessários para enviar ao cliente e para liberação na..."],
