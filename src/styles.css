@@ -270,7 +270,7 @@
   .cover-image { position:relative; inset:auto; display:block; width:100%; height:auto; object-fit:contain; object-position:center center; }
   .home-cover>.site-container { min-height:0; width:100%; padding:1.5rem 1rem 2rem; transform:none; }
   .home-cover h2 { display:none; }
-  .home-cover p { width:100%; max-width:100%; margin-top:0; transform:none; overflow-wrap:anywhere; }
+  .home-cover p { width:100%; max-width:100%; margin-top:0; transform:none!important; overflow-wrap:anywhere; }
   .brand-logo { height:62px;width:auto; }.site-container { width:min(100% - 1.25rem,1280px); }
   .hero-coordinates { display:none; }.route-graphic { inset:20% -30% auto 5%; }.hero-image { object-position:62% center; }.hero-overlay { background:linear-gradient(90deg,color-mix(in oklab,var(--brand-deep) 94%,transparent),color-mix(in oklab,var(--brand-deep) 42%,transparent)),linear-gradient(0deg,color-mix(in oklab,var(--brand-deep) 85%,transparent),transparent 70%); }
   .service-showcase,.benefit-line,.process-grid,.services-grid,.blog-preview,.editorial-grid,.form-grid { grid-template-columns:1fr; }
