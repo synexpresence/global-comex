@@ -60,7 +60,7 @@ function Index() {
           loading="eager"
         />
         <div className="cover-overlay" />
-        <div className="site-container relative z-10 flex min-h-[100svh] flex-col items-center justify-end pb-24 pt-32 text-center translate-y-[2cm] md:pb-32">
+        <div className="site-container relative z-10 flex min-h-[100svh] flex-col items-center justify-end pb-24 pt-32 text-center translate-y-[1cm] md:pb-32">
           <h2 className="font-display text-5xl font-semibold text-on-dark sm:text-7xl lg:text-[6.5rem]">{"\n"}</h2>
           <p className="mt-5 max-w-2xl text-base leading-7 text-on-dark-muted md:text-lg">Conectando seus negócios ao mundo, com agilidade e confiança.</p>
         </div>
