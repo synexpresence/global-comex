@@ -172,7 +172,7 @@ function PreviousContent() {
       <div className="site-container">
         <SectionTitle eyebrow="Arquivo Global Comex" title="Conteúdos anteriores." />
         <div className="editorial-grid mt-12">
-          <article><img src={shipImage} alt="Navio de carga" width={1024} height={1280} loading="lazy" /><div><span>12 de fevereiro de 2025</span><h2>Como funciona o transporte de carga consolidada?</h2><ArrowRight /></div></article>
+          <a href="https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/exportacao-portal-unico/copy_of_outras-funcionalidades-do-modulo-cct/consolidacao-da-carga" target="_blank" rel="noopener noreferrer" aria-label="Ler: Como funciona o transporte de carga consolidada?"><article><img src={shipImage} alt="Navio de carga" width={1024} height={1280} loading="lazy" /><div><span>12 de fevereiro de 2025</span><h2>Como funciona o transporte de carga consolidada?</h2><ArrowRight /></div></article></a>
           <article><img src={airImage} alt="Carga em aeronave" width={1024} height={1280} loading="lazy" /><div><span>12 de fevereiro de 2025</span><h2>Logística do transporte aéreo</h2><ArrowRight /></div></article>
         </div>
       </div>
