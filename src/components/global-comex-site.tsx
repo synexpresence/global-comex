@@ -186,7 +186,7 @@ export function GlobalBand() {
     <div className="global-band" aria-label="Atuação em comércio exterior">
       <div className="site-container flex items-center gap-5 overflow-hidden py-4 text-xs font-bold uppercase text-on-dark-muted">
         <Globe2 className="shrink-0 text-brand-red" />
-        <div className="flex min-w-max items-center gap-8"><span>Comércio exterior</span><i /> <span>Logística internacional</span><i /><span>Assessoria aduaneira</span><i /><span>Conexões que movimentam negócios</span></div>
+        <div className="flex min-w-max items-center gap-8"><span>Assessoria aduaneira</span><i /> <span>Logística internacional</span><i /><span>Transporte rodoviário</span></div>
       </div>
     </div>
   );
