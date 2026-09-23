@@ -46,7 +46,7 @@ function Index() {
     ["Chapulim Colorado", "Uma excelente empresa de assessoria em processos para exportação. Uma equipe com larga experiência e muita disposição para executar, explicar e até de ensinar os mínimos detalhes do processo de exportação."],
     ["Physical Line Produtos para Saúde!", "\"Global Comex assessoria é uma empresa referência e com expertise em processos de importação.\n100% de nossas importações são feitas com acompanhamento desses profissionais gabaritados.\nAgradeço serviços prestados.\nForte abraço em nome da equipe Physical Line.\""],
     ["Mauricio Oliveira", "\"Ótimo serviço para quem está importando Instrumentação Eletrônica dos EUA, rapidez e eficiência com bom custo/benefício,\neu recomendo.\""],
-    ["Oscar Magalhães", "Fui muito bem atendido pelo srs. Roberto e Francisco. Me ajudaram até em coisas que não eram de suas responsabilidades. Muito prestativos e atentos em todo processo de desembaraço de minha mercadoria. Empresa altamente recomendada."],
+    ["Gustavo Berzins", "A melhor assessoria aduaneira! Sempre transparentes com toda a complexidade do processo e dispostos a ajudar e a esclarecer dúvidas. Recomendo!"],
   ];
   return (
     <>
