@@ -42,7 +42,7 @@ function Index() {
     ["Advancis Max", "Ficamos extremamente satisfeitos com a agilidade no processo, o profissionalismo em nos atender sempre prontamente e também em nos instruir durante o processo. Somos gratos e indicamos!"],
     ["Daniela Gimenez", "Excelente.. Problema resolvido, profissional atencioso."],
     ["Alan Alves", "A Global Comex cuida do desalfandegamento dos nossos envios de vinho para o Brasil, sempre com muita atenção e qualidade. Rapidez e clareza nas respostas. Recomendo vivamente os serviços deles."],
-    ["Shop", "Indispensável para o andamento do meu negócio. Francisco é maravilhoso. Agil, competente, disponível. Obrigada pela parceria."],
+    ["Shop V Atelie", "Indispensável para o andamento do meu negócio. Francisco é maravilhoso. Agil, competente, disponível. Obrigada pela parceria."],
     ["Chapulim Colorado", "Uma excelente empresa de assessoria em processos para exportação. Uma equipe com larga experiência e muita disposição para executar, explicar e até de ensinar os mínimos detalhes do processo de exportação."],
     ["Physical Line Produtos para Saúde!", "\"Global Comex assessoria é uma empresa referência e com expertise em processos de importação.\n100% de nossas importações são feitas com acompanhamento desses profissionais gabaritados.\nAgradeço serviços prestados.\nForte abraço em nome da equipe Physical Line.\""],
     ["Mauricio Oliveira", "\"Ótimo serviço para quem está importando Instrumentação Eletrônica dos EUA, rapidez e eficiência com bom custo/benefício,\neu recomendo.\""],
