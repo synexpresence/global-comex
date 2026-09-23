@@ -65,7 +65,7 @@ export function SiteHeader() {
         </nav>
         <div className="flex items-center gap-2">
           <div className="hidden items-center gap-1 text-xs font-bold text-header sm:flex" aria-label="Idioma">
-            <span className="text-current">PT</span><span className="opacity-50">/</span><span className="opacity-60">EN</span>
+            <span className="text-current">{"\n"}</span><span className="opacity-50">{"\n"}</span><span className="opacity-60">{"\n"}</span>
           </div>
           <Button asChild variant="header" size="sm" className="header-cta hidden lg:inline-flex">
             <Link to="/contato">SOLICITE UMA COTAÇÃO</Link>
