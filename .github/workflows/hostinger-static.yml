@@ -18,7 +18,7 @@ jobs:
           for page in quem-somos servicos blog contato; do test -f ".output/client/$page/index.html"; done
           test -f .output/client/favicon.png
           test -d .output/client/__l5e/assets-v1
-          if rg -l '/_serverFn/|/_serverFn\?' .output/public --glob '*.html'; then exit 1; fi
+          if rg -a -l '/_serverFn/|/_serverFn\?' .output/client --glob '*.html'; then exit 1; fi
       - uses: actions/upload-artifact@v4
         with:
           name: hostinger-public-html

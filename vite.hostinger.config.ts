@@ -2,7 +2,6 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // TanStack prerenders each route in CI; only .output/client is uploaded.
 export default defineConfig({
-  // TanStack prerenders HTML during the build; no server files are deployed.
   nitro: false,
   vite: { build: { outDir: ".output" } },
   tanstackStart: {
