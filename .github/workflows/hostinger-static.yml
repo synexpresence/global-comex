@@ -1,0 +1,27 @@
+name: Hostinger static package
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run build:hostinger
+      - name: Verify static pages and assets
+        run: |
+          test -f .output/client/index.html
+          for page in quem-somos servicos blog contato; do test -f ".output/client/$page/index.html"; done
+          test -f .output/client/favicon.png
+          test -d .output/client/__l5e/assets-v1
+          if rg -a -l '/_serverFn/|/_serverFn\?' .output/client --glob '*.html'; then exit 1; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hostinger-public-html
+          path: .output/client/
+          include-hidden-files: true
+          if-no-files-found: error
