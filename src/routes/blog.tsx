@@ -22,7 +22,7 @@ type CategoryFilter = (typeof categories)[number];
 
 const newsQueryOptions = queryOptions({
   queryKey: ["trade-news"],
-  queryFn: () => import.meta.env.VITE_STATIC_EXPORT === "true" ? staticNews : getTradeNews(),
+  queryFn: (): Promise<{ items: TradeNewsItem[] }> => import.meta.env["VITE_STATIC_EXPORT"] === "true" ? Promise.resolve({ items: staticNews.items as TradeNewsItem[] }) : getTradeNews(),
   staleTime: 15 * 60 * 1_000,
 });
 
@@ -76,7 +76,7 @@ function UpdatesCenter() {
               description="Acesse resumos objetivos e siga para a publicação original para consultar o conteúdo completo."
             />
             {data.items.length > 0 && (
-              <p className="updates-source-note"><span />Fontes oficiais: MDIC e Siscomex{import.meta.env.VITE_STATIC_EXPORT === "true" && staticNews.updatedAt && ` · Atualizado em ${formatDate(staticNews.updatedAt)}`}</p>
+              <p className="updates-source-note"><span />Fontes oficiais: MDIC e Siscomex{import.meta.env["VITE_STATIC_EXPORT"] === "true" && staticNews.updatedAt && ` · Atualizado em ${formatDate(staticNews.updatedAt)}`}</p>
             )}
           </div>
 
