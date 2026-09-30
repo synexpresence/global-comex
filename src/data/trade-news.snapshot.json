@@ -1,4 +1,342 @@
 {
-  "items": [],
-  "updatedAt": ""
+  "items": [
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-101",
+      "title": "Importação nº 101/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-28T22:27:00.000Z",
+      "summary": "Novas validações do Siscomex Remessa a partir de 01/10/2026",
+      "categories": [
+        "Importação",
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-101"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-100",
+      "title": "Importação nº 100/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-23T20:21:00.000Z",
+      "summary": "Disponibilização em produção das alterações na Duimp para a Reforma Tributária do Consumo (CBS/IBS) – informações complementares.",
+      "categories": [
+        "Importação",
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-100"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-099",
+      "title": "Importação nº 099/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-23T18:20:07.000Z",
+      "summary": "Produtos sujeitos a inspeção pelo Ibama",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-099"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-016",
+      "title": "Sistemas nº 016/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-22T12:46:00.000Z",
+      "summary": "Parada programada de sistemas",
+      "categories": [
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-016"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-015",
+      "title": "Sistemas nº 015/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-17T19:53:37.000Z",
+      "summary": "Modal Rodoviário - CCT Importação: Comunicado sobre a adequação de processos e sistemas ao CCT Importação.",
+      "categories": [
+        "Siscomex",
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-015"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-098",
+      "title": "Importação nº 098/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-10T14:38:00.000Z",
+      "summary": "Retificação da Notícia Importação nº 093/2026 — Alteração nos atributos e tratamentos administrativos Inmetro",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-098"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-097",
+      "title": "Importação n° 097/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-09T19:07:24.000Z",
+      "summary": "Alteração nos atributos e tratamentos administrativos do INMETRO",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-097"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-096",
+      "title": "Importação nº 096/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-04T11:56:54.000Z",
+      "summary": "Alteração na API do Tratamento Tributário - Consulta em lote",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-096"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-095",
+      "title": "Importação nº 095/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-03T20:58:00.000Z",
+      "summary": "Alteração de tratamento administrativo do INMETRO",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-095"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-094",
+      "title": "Importação nº 094/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-09-01T13:06:11.000Z",
+      "summary": "Alteração de tratamento administrativo - Anvisa - NCM 15050010, 27101991, 27121000 e 34049029",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-094"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-093",
+      "title": "Importação nº 093/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-28T21:26:00.000Z",
+      "summary": "Alteração nos atributos e tratamentos administrativos - Inmetro",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-093"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-024",
+      "title": "Exportação n° 024/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-27T19:34:46.000Z",
+      "summary": "Prorrogação excepcional de prazo de validade de Atos Concessórios de Drawback Suspensão Integrado. Medida Provisória nº 1.386, de 24 de agosto de 2026. Portaria Secex nº 536, de 25 de agosto de 2026.",
+      "categories": [
+        "Exportação",
+        "Legislação e regulamentação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-024"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-092",
+      "title": "Importação nº 092/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-27T17:43:00.000Z",
+      "summary": "Adiamento do desligamento da embalagem tipo Granel para 11/10/2026",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-092"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-091",
+      "title": "Importação nº 091/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-26T19:24:23.000Z",
+      "summary": "Alteração de TA para produtos da ANP",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-091"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-090",
+      "title": "Importação nº 090/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-24T19:42:56.000Z",
+      "summary": "Alteração em modelo de LPCO - Decex",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-090"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-089",
+      "title": "Importação nº 089/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-19T18:46:26.000Z",
+      "summary": "Disponibilização em produção das alterações na Duimp para a Reforma Tributária do Consumo (CBS/IBS)",
+      "categories": [
+        "Importação",
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-089"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-023",
+      "title": "Exportação nº 023/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-19T13:48:18.000Z",
+      "summary": "Atualização da NSE nº 019/2024 - Emissão de Certificados de Origem Cota Açúcar",
+      "categories": [
+        "Exportação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-023"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-088",
+      "title": "Importação nº 088/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-18T00:08:00.000Z",
+      "summary": "Alteração nos atributos e tratamentos administrativos - Inmetro",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-088"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-087",
+      "title": "Importação nº 087/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-14T18:13:47.000Z",
+      "summary": "Inclusão de produtos em TA do Mapa",
+      "categories": [
+        "Importação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-importacao/Comunicados/importacao-no-2026-087"
+    },
+    {
+      "id": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/informativos/informativo-2026-037",
+      "title": "Informativo n° 037/2026 – 10/08/2026",
+      "source": "MDIC",
+      "publishedAt": "2026-08-10T18:05:05.000Z",
+      "summary": "Divulgados os resultados parciais da balança comercial com dados preliminares da 1ª semana de agosto/2026",
+      "categories": [
+        "Comércio Exterior"
+      ],
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/estatisticas/informativos/informativo-2026-037"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-022",
+      "title": "Exportação n° 022/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-08-05T18:48:44.000Z",
+      "summary": "Inclusão de NCM em LPCO do MAPA",
+      "categories": [
+        "Exportação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-022"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-021",
+      "title": "Exportação n° 021/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-23T20:29:31.000Z",
+      "summary": "Implantação do CNPJ Alfanumérico - procedimentos complementares Decex",
+      "categories": [
+        "Exportação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-021"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-014",
+      "title": "Sistemas nº 014/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-23T16:59:23.000Z",
+      "summary": "Comunicado sobre sistemas aduaneiros impactados decorrentes da implantação do CNPJ Alfanumérico",
+      "categories": [
+        "Siscomex",
+        "Aduana"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-014"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-013",
+      "title": "Sistemas nº 013/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-20T14:50:00.000Z",
+      "summary": "Comunicado sobre a implantação do CNPJ Alfanumérico e impactos nos sistemas de comércio exterior",
+      "categories": [
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-013"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-020",
+      "title": "Exportação n° 020/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-20T14:45:00.000Z",
+      "summary": "Comunicado sobre a implantação do CNPJ Alfanumérico e impactos nos sistemas de comércio exterior",
+      "categories": [
+        "Exportação",
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-020"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-012",
+      "title": "Sistemas nº 012/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-16T12:36:29.000Z",
+      "summary": "Atualização sobre as correções implementadas no Portal Único Siscomex após a implantação da Release Paraná",
+      "categories": [
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-012"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-019",
+      "title": "Exportação n° 019/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-15T14:22:42.000Z",
+      "summary": "Alteração de TA de monitoramento do Ibama",
+      "categories": [
+        "Exportação"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-exportacao/comunicados/exportacao-no-2026-019"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-011",
+      "title": "Sistemas nº 011/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-14T22:21:53.000Z",
+      "summary": "Atualização sobre as ocorrências após a implantação da Release Paraná – Referência à Notícia Siscomex Sistemas nº 010/2026",
+      "categories": [
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-011"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-010",
+      "title": "Sistemas nº 010/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-14T16:07:36.000Z",
+      "summary": "Atualização sobre ocorrências decorrentes da nova versão do sistema Portal Único Siscomex",
+      "categories": [
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-010"
+    },
+    {
+      "id": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-009",
+      "title": "Sistemas nº 009/2026",
+      "source": "Siscomex",
+      "publishedAt": "2026-07-08T20:22:00.000Z",
+      "summary": "Novos campos e novas validações na API-Recintos (Release Paraná).",
+      "categories": [
+        "Siscomex"
+      ],
+      "url": "https://www.gov.br/siscomex/pt-br/noticias/noticias-siscomex-sistemas/comunicados/sistemas-no-2026-009"
+    }
+  ],
+  "updatedAt": "2026-09-30T17:38:31.828Z"
 }
