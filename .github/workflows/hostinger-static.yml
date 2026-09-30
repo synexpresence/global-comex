@@ -14,14 +14,14 @@ jobs:
       - run: bun run build:hostinger
       - name: Verify static pages and assets
         run: |
-          test -f .output/public/index.html
-          for page in quem-somos servicos blog contato; do test -f ".output/public/$page/index.html"; done
-          test -f .output/public/favicon.png
-          test -d .output/public/__l5e/assets-v1
+          test -f .output/client/index.html
+          for page in quem-somos servicos blog contato; do test -f ".output/client/$page/index.html"; done
+          test -f .output/client/favicon.png
+          test -d .output/client/__l5e/assets-v1
           if rg -l '/_serverFn/|/_serverFn\?' .output/public --glob '*.html'; then exit 1; fi
       - uses: actions/upload-artifact@v4
         with:
           name: hostinger-public-html
-          path: .output/public/
+          path: .output/client/
           include-hidden-files: true
           if-no-files-found: error
