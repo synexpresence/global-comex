@@ -4,6 +4,7 @@ import { ArrowRight, ArrowUpRight, CalendarDays, Newspaper } from "lucide-react"
 import { PageHero, SectionTitle } from "@/components/global-comex-site";
 import { Button } from "@/components/ui/button";
 import { getTradeNews, type NewsCategory, type TradeNewsItem } from "@/lib/trade-news.functions";
+import staticNews from "@/data/trade-news.snapshot.json";
 import shipImage from "@/assets/global-comex-ship.jpg";
 import airImage from "@/assets/global-comex-air-cargo.jpg";
 
@@ -21,7 +22,7 @@ type CategoryFilter = (typeof categories)[number];
 
 const newsQueryOptions = queryOptions({
   queryKey: ["trade-news"],
-  queryFn: () => getTradeNews(),
+  queryFn: () => import.meta.env.VITE_STATIC_EXPORT === "true" ? staticNews : getTradeNews(),
   staleTime: 15 * 60 * 1_000,
 });
 
@@ -75,7 +76,7 @@ function UpdatesCenter() {
               description="Acesse resumos objetivos e siga para a publicação original para consultar o conteúdo completo."
             />
             {data.items.length > 0 && (
-              <p className="updates-source-note"><span />Fontes oficiais: MDIC e Siscomex</p>
+              <p className="updates-source-note"><span />Fontes oficiais: MDIC e Siscomex{import.meta.env.VITE_STATIC_EXPORT === "true" && staticNews.updatedAt && ` · Atualizado em ${formatDate(staticNews.updatedAt)}`}</p>
             )}
           </div>
 
