@@ -8,3 +8,7 @@
 
 - [x] Substituir e validar a logo oficial no cabeçalho, rodapé e favicon
 - [x] Adicionar e validar o WhatsApp no contato final da Home
+
+- [x] Preparar exportação estática Hostinger com páginas pré-geradas, notícias oficiais em snapshot e imagens embaladas
+- [ ] Configurar agendamento e envio remoto à Hostinger — depende de acesso ao repositório CI e credenciais da hospedagem
+- [ ] Validar Formspree no domínio final — depende da publicação pelo proprietário
