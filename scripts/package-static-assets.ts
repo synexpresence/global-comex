@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
 const output = new URL("../.output/public/", import.meta.url);
+// Pointers remain in the Lovable project; copy the identical immutable bytes for external hosting.
 const pointers = [
   "global-comex-logo-nova.png", "global-comex-cover-home.jpg",
   "caminhao-containers.png", "seguranca-corporativa.png",
