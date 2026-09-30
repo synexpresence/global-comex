@@ -2,7 +2,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 // Use outside Lovable's managed build (e.g. CI); only .output/public is uploaded.
 export default defineConfig({
-  nitro: { preset: "static" },
+  // TanStack prerenders HTML during the build; no server files are deployed.
+  nitro: false,
+  vite: { build: { outDir: ".output" } },
   tanstackStart: {
     server: { entry: "server" },
     pages: [
