@@ -55,9 +55,13 @@ function Contato() {
   const recaptchaWidgetId = useRef<number | null>(null);
 
   useEffect(() => {
+    let attempts = 0;
+    let intervalId: number | undefined;
+
     const renderCaptcha = () => {
       if (
         window.grecaptcha &&
+        typeof window.grecaptcha.render === "function" &&
         recaptchaRef.current &&
         recaptchaWidgetId.current === null
       ) {
@@ -67,11 +71,18 @@ function Contato() {
             sitekey: RECAPTCHA_SITE_KEY,
           }
         );
+
+        if (intervalId) {
+          window.clearInterval(intervalId);
+        }
+
+        return true;
       }
+
+      return false;
     };
 
-    if (window.grecaptcha) {
-      renderCaptcha();
+    if (renderCaptcha()) {
       return;
     }
 
@@ -79,23 +90,37 @@ function Contato() {
       'script[src="https://www.google.com/recaptcha/api.js"]'
     );
 
+    const handleLoad = () => {
+      attempts = 0;
+
+      intervalId = window.setInterval(() => {
+        attempts += 1;
+
+        if (renderCaptcha() || attempts >= 50) {
+          if (intervalId) {
+            window.clearInterval(intervalId);
+          }
+        }
+      }, 200);
+    };
+
     if (existingScript) {
-      existingScript.addEventListener("load", renderCaptcha);
-      return () => {
-        existingScript.removeEventListener("load", renderCaptcha);
-      };
+      existingScript.addEventListener("load", handleLoad);
+      handleLoad();
+    } else {
+      const script = document.createElement("script");
+      script.src = "https://www.google.com/recaptcha/api.js";
+      script.async = true;
+      script.defer = true;
+      script.onload = handleLoad;
+
+      document.head.appendChild(script);
     }
 
-    const script = document.createElement("script");
-    script.src = "https://www.google.com/recaptcha/api.js";
-    script.async = true;
-    script.defer = true;
-    script.onload = renderCaptcha;
-
-    document.head.appendChild(script);
-
     return () => {
-      script.onload = null;
+      if (intervalId) {
+        window.clearInterval(intervalId);
+      }
     };
   }, []);
 
